@@ -8,6 +8,7 @@ public class GunballPCTarget : TargetRules
 	public GunballPCTarget(TargetInfo Target)
 	{
 		Type = TargetType.Game;
+        bUsesSteam = true;
 	}
 
 	//
